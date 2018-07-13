@@ -19,10 +19,9 @@ body{
   color: black;
   margin-top: 2.5%
   text-align:center;
-  text-shadow: 4px 4px #0000;
-  font: 400 100px/1.2 'Merienda One', Helvetica, sans-serif;
-  color: rgba(0,0,0,0.7);
-  text-shadow: 3px 3px 3px #fff;
+  font: 200 100px/1.2 'Merienda One', Helvetica, sans-serif;
+
+
 }
 
 #about{
