@@ -25,6 +25,8 @@ body{
 }
 
 #about{
+  font: 20 15px/1.2 'Merienda One', Helvetica, sans-serif;
+
   background-color: black;
   color: gold;
   height:1000px;
