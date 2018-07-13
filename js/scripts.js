@@ -1,7 +1,7 @@
 //user interface
 
 $(document).ready(function(){
-  $("form #inputnumber").submit(function(event){
+  $("form #pingpong").submit(function(event){
   $("#output").empty();
   var input = parseInt($("input#number").val());
   $("#result ul").text("");
