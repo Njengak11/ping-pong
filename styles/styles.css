@@ -9,9 +9,15 @@
   width: 100%;
 }
 
-.header{
+#header{
   color: black;
   margin-top: 2.5%
   text-align:center;
   text-shadow: 4px 4px #0000;
+}
+
+#about{
+  background-color: black;
+  color: gold;
+
 }
