@@ -1,11 +1,5 @@
-#ping-pong{
-  text-align: center;
+.banner{
+  background-color: gold;
   color: black;
-  background-color: brown;
-}
-
-h1{
   text-align: center;
-  color: black;
-  background-color: brown;  
 }
