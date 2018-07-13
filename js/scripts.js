@@ -6,7 +6,7 @@ $(document).ready(function(){
   var input = parseInt($("input#number").val());
   $("#result ul").text("");
   numbers.forEach(function(output){
-    $("output").append("<li>" + output + "</li>");
+    $("output").append("<li>" + output + "</li>")
     event.preventDefault();
   });
 });
@@ -15,7 +15,7 @@ $(document).ready(function(){
 //back end
 function pingpong(){
 	for(var i=1;i<=100;i++){
-		if(i%15 === 0){
+		if(i%3 === 0 %% 5 === 0){
 			print('pingpong');
 		} else if(i%3 === 0){
 			print('Ping');
