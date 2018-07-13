@@ -4,25 +4,26 @@ $(document).ready(function(){
   $("form #pingpong").submit(function(event){
   $("#output").empty();
   var input = parseInt($("input#number").val());
-  $("#result ul").text("");
   numbers.forEach(function(output){
     $("output").append("<li>" + output + "</li>")
     event.preventDefault();
+
   });
 });
 });
 
 //back end
+var result=[]
 function pingpong(){
 	for(var i=1;i<=100;i++){
 		if(i%3 === 0 %% 5 === 0){
-			print('pingpong');
+			result.push("pingpong");
 		} else if(i%3 === 0){
-			print('Ping');
+			result.push("pong");
 		} else if(i%5 === 0){
-			print('pong');
+			result.push("ping");
 		} else {
-			print(i);
+			result.push("");
 		}
 	}
 }
