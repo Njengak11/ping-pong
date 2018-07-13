@@ -8,3 +8,10 @@
   top: 0;
   width: 100%;
 }
+
+.header{
+  color: black;
+  margin-top: 2.5%
+  text-align:center;
+  text-shadow: 4px 4px #0000;
+}
