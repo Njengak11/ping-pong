@@ -15,7 +15,7 @@ $(document).ready(function(){
 //back end
 function pingpong(){
 	for(var i=1;i<=100;i++){
-		if(i%5 === 0 && i%3 === 0){
+		if(i%15 === 0){
 			print('pingpong');
 		} else if(i%3 === 0){
 			print('Ping');
