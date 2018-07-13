@@ -13,3 +13,16 @@ $(document).ready(function(){
 });
 
 //business end
+function fizzbuzz(){
+  for (i=1, i<=100;i++){
+    if(i % 3 === 0){
+      console.log("ping");
+    }else if(i % 5 ===0 ){
+      console.log("pong");
+    } else if (i % 15 === 0) {
+      console.log("pingpong");
+    }else {
+      console.log("");}
+    }
+  }
+}
